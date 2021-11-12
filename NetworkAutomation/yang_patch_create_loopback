@@ -1,0 +1,13 @@
+<yang-patch xmlns="urn:ietf:params:xml:ns:yang:ietf-yang-patch">
+        <patch-id>add-Loopback-patch</patch-id>
+        <edit>
+          <edit-id>edit1</edit-id>
+          <operation>create</operation>
+          <target>/Loopback=99</target>
+          <value>
+              <Loopback xmlns="http://cisco.com/ns/yang/Cisco-IOS-XE-native">
+                <name>99</name>
+              </Loopback>
+          </value>
+        </edit>
+</yang-patch>

@@ -1,0 +1,11 @@
+<yang-patch xmlns="urn:ietf:params:xml:ns:yang:ietf-yang-patch">
+        <patch-id>add-hostname-patch</patch-id>
+        <edit>
+          <edit-id>edit1</edit-id>
+          <operation>replace</operation>
+          <target>/hostname</target>
+          <value>
+              <hostname xmlns="http://cisco.com/ns/yang/Cisco-IOS-XE-native">IOS-XE-NEW</hostname>
+          </value>
+        </edit>
+</yang-patch>

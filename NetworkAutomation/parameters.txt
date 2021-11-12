@@ -1,0 +1,1 @@
+-k -H "Authorization: Basic Y2lzY291c2VyOmNpc2Nv" -H "Accept: application/yang-data+json" 
