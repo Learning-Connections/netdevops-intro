@@ -18,8 +18,5 @@ print "\n\n *** Printing show cmd with 'execute' function  *** \n\n"
 output= cli.execute('show run interface %s' %intf)
 print (output)
 
-print "\n\n *** Configuring interface %s with 'cli' function  *** \n\n"
-cli.cli('config terminal; interface %s; spanning-tree portfast edge default' %intf)
-
 print "\n\n *** Printing show cmd with 'clip' function  *** \n\n"
 cli.clip('show run interface %s' %intf)
